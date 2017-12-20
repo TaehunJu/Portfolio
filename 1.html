@@ -14,20 +14,34 @@
   document.querySelector('body').style.backgroundColor='white';
   document.querySelector('body').style.color='black';
   ">
+  <input id="night_day" type="button" value="night" onclick="
+  if(document.querySelector('#night_day').value==='night'){
+    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';
+    document.querySelector('#night_day').value='day';
+  } else {
+    document.querySelector('body').style.backgroundColor='white';
+    document.querySelector('body').style.color='black';
+    document.querySelector('#night_day').value='night';
+  }">
   <h1><a href="index.html">Ju Tae Hun Portfolio</a></h1>
   <ol>
     <li><a href="1.html">Timeline</a></li>
     <li><a href="2.html">Education</a></li>
     <li><a href="3.html">Career</a></li>
     <li><a href="4.html">Ability</a></li>
+    <li><a href="EX1.html">EX1</a></li>
+    <li><a href="EX2.html">EX2</a></li>
+    <li><a href="EX3.html">EX3</a></li>
+    <li><a href="EX4.html">EX4</a></li>
   </ol>
   <h2>Timeline 어떻게 살아왔는가</h2>
   Feb. 2016 <strong><a href="https://me.korea.ac.kr/"
     target="_blank" title="고려대학교 기계공학부 홈페이지">Korea University.</a> Mechanical Engineering Department</strong> <u>Graduate</u>
   <p>Jan. 2016 <strong>GS Engineering & Construction</strong> Entry</p>
   <p>Oct. 2017 <strong>GS Engineering & Construction</strong> Retirement</p>
-  <img src="Dubai.jpg" width="600">
-  <p><iframe width="560" height="315" src="https://www.youtube.com/embed/_3GbiJCCP5k" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  <!<img src="Dubai.jpg" width="600">>
+  <p><iframe width="560" height="315" <! src="https://www.youtube.com/embed/_3GbiJCCP5k" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
   </p>
 </body>
 </html>
